@@ -1,3 +1,6 @@
+:root{
+    --cor-fundo: rgb(44, 58, 73);
+    --cor-texto: rgb(22, 9, 15)
 body{
     background-color: rgb(202, 91, 212);
     color: #222222;
