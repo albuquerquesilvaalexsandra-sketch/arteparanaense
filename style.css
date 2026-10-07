@@ -1,11 +1,18 @@
 :root{
     --cor-fundo: rgb(44, 58, 73);
     --cor-texto: rgb(22, 9, 15)
+    --cor-secundaria:#4d6c72;
+    --cor-hover:#472480;
+    --cor-superfice:#939e63;
+    --cor-card:#6d4577;
+    --cor-legenda:#738db4;
+    --cor-clara:#6e6b4a;
+    --cor-rodape:#9068db;
 body{
-    background-color: rgb(202, 91, 212);
-    color: #222222;
-    font-family: Arial, sans-serif;
-    margin: 0;
+    background-color: var(--cor-principal);
+    color: var (--cor-clara);
+    font-family: center;
+    padding: 30px;
 }
 header{
     background-color: rgb(4, 32, 65);
@@ -18,7 +25,7 @@ section{
 }
 Style
 body {
-    background-color: #a0ec11;
+    background-color: #daf3ad;
     color: #7fecc2;
     font-family: Arial, sans-serif;
 }
@@ -29,6 +36,13 @@ header {
     text-align: center;
     padding: 30px;
 }
+ {
+     background-color: var(--cor-principal);
+    color: var (--cor-clara);
+    font-family: center;
+    padding: 30px;
+}
+
 
 h1 {
     font-size: 36px;
